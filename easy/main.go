@@ -3,5 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(LengthOfLongestSubstring("abcadbcbb"))
+	slice := [][]int{
+		{88}, {22}, {88}, {22},
+	}
+	fmt.Println(maxDistance(slice))
 }
